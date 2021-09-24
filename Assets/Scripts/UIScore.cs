@@ -10,8 +10,8 @@ public class UIScore : MonoBehaviour
 
     private void Update()
     {
-        highScore.text = ScoreManager.Instance.HighScore.ToString();
-        currentScore.text = ScoreManager.Instance.CurrentScore.ToString();
+        highScore.text = "HISCORE : " + ScoreManager.Instance.HighScore.ToString();
+        currentScore.text = "SCORE : " +ScoreManager.Instance.CurrentScore.ToString();
     }
 
     public void Show()
